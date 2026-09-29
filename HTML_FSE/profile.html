@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Skills Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+        }
+
+        /* Top Navigation Header */
+        header {
+            background-color: #09ad9c;
+            padding: 15px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 40px;
+            border-radius: 8px;
+            margin: 10px;
+        }
+
+        .logo-area {
+            display: flex;
+            align-items: center;
+            color: #ffffff;
+            font-size: 14px;
+        }
+
+        .logo-area img {
+            height: 25px;
+            width: auto;
+            margin-right: 5px;
+            object-fit: contain;
+        }
+
+        nav a {
+            color: blue;
+            text-decoration: underline;
+            margin: 0 10px;
+            font-size: 14px;
+        }
+
+        /* Main Content Card */
+        .container {
+            width: 350px;
+            background-color: #dcdcdc;
+            border: 1px solid #000000;
+            margin: 40px auto;
+            padding: 30px;
+            text-align: left;
+        }
+
+        h1 {
+            color: darkblue;
+            text-align: center;
+            font-size: 24px;
+            margin-top: 0;
+        }
+
+        .student-photo-box {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        /* Photo sizing and centering */
+        .student-photo-box img {
+            width: 120px;
+            height: 150px;
+            object-fit: cover;
+            border: 1px dashed #ed0808;
+            padding: 4px;
+            background-color: #000000;
+            display: block;
+            margin: 0 auto;
+        }
+
+        h2 {
+            color: darkgreen;
+            font-size: 18px;
+            margin-top: 25px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 14px;
+            line-height: 1.4;
+            color: #000000;
+        }
+
+        ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+
+        li {
+            font-size: 14px;
+            margin-bottom: 4px;
+        }
+
+        .website-link {
+            text-align: left;
+            margin-top: 20px;
+        }
+
+        .website-link a {
+            color: blue;
+            text-decoration: underline;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Navigation Bar -->
+    <header>
+        <div class="logo-area">
+            <img src="logo.png" alt="logo"> 
+        </div>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#website">Website</a>
+        </nav>
+    </header>
+
+    <!-- Main Card Container -->
+    <div class="container">
+        <h1>Manjil Shrestha</h1>
+
+        <div class="student-photo-box">
+            <img src="photo.jpg" alt="Student Photo">
+        </div>
+
+        <h2>About Me</h2>
+        <p>Hello! My name is Manjil Shrestha. I am a computer science student and I am learning HTML, CSS and JavaScript.</p>
+
+        <h2>My Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>C#</li>
+        </ul>
+
+        <h2>My Website</h2>
+        <div class="website-link">
+            <a href="#" target="_blank">Visit My Website</a>
+        </div>
+    </div>
+
+</body>
+</html>
